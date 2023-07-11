@@ -1,0 +1,32 @@
+h1{
+    color:#5432cf;
+}
+
+/* PRUEBA DE COLORES EN CSS*/
+p{
+    color:rgb(167, 35, 138);
+    font-size: 20pt;
+}
+
+#primer-noticia{
+    color: blue;
+    font-size: 24pt;
+}
+
+#segunda-noticia{
+    color: blueviolet;
+    font-size: 25pt;
+}
+
+.encabezado{
+    font-size: 24pt;
+    text-transform:uppercase;
+}
+
+*.warning{
+    color: red;
+}
+
+.autor, .fecha, .ubicacion, h1,  #primer-noticia{
+    text-decoration: underline;
+}

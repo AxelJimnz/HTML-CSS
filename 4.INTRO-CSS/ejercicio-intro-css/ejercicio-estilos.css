@@ -1,0 +1,16 @@
+html{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    font-size: 300;
+    background-color:whitesmoke;
+}
+
+/* Estilos para el primer elemento de cada lista */
+#elemento-1{
+    color: red;
+}
+
+/* Estilos para el primer elemento de la primera lista */
+ul li:first-of-type {
+    font-size:2rem;
+}
