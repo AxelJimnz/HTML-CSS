@@ -11,6 +11,6 @@ html{
 }
 
 /* Estilos para el primer elemento de la primera lista */
-ul li:first-of-type {
+ul li#elemento-1{
     font-size:2rem;
 }
