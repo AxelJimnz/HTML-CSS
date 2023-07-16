@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PSEUDOCLASES</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .hover {
+        width: 300px;
+        height: 100px;
+        background-color: antiquewhite;
+      }
+      .hover:hover{
+        background-color: burlywood;
+      }
+
+      .listado{
+        padding: 15px;
+        background-color: rgb(156, 110, 231);
+      }
+
+      .listado p:first-child{
+        color: white;
+      }
+
+      a:link{/*NO VISITADO */
+        color: deeppink;
+      }
+      a:visited{
+        color: rgb(190, 73, 206);
+      }
+
+      a:hover{
+        color: rgb(54, 180, 138);
+      }
+
+      a:active{
+        color:greenyellow;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="hover">
+      <p>
+        Proident do est duis aliquip consectetur anim ex amet laboris velit non
+        id laborum. Incididunt nostrud ut excepteur nulla culpa qui Lorem
+        laboris consequat in veniam ullamco culpa sit. 
+      </p>
+    </div>
+
+    <div class="listado">
+        <p>Parrafo 1</p>
+        <p>Parrafo 2</p>
+        <p>Parrafo 3</p>
+    </div>
+
+    <div class="enlaces">
+        <a href="http://google.com" target="_blank"> Enlace a Google</a>
+        <a href="http://marca.com" target="_blank"> Enlace a Google</a>
+    </div>
+  </body>
+</html>
